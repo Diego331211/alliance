@@ -50,8 +50,9 @@ const Header = () => {
 
         {/* Menú de Navegación */}
         <nav
-          className={`${isOpen ? "flex" : "hidden"
-            } md:flex flex-col md:flex-row md:space-x-6 space-y-8 bg-white absolute md:relative w-full md:w-auto left-0 top-[130px] md:top-0 md:p-0 p-4 shadow-md md:shadow-none z-10 font-sans`}
+          className={`${
+            isOpen ? "flex" : "hidden"
+          } md:flex flex-col md:flex-row md:space-x-6 space-y-8 md:space-y-0  bg-white absolute md:relative w-full md:w-auto left-0 top-[130px] md:top-0 md:p-0 p-4 shadow-md md:shadow-none z-10 font-sans`}
         >
           <a
             href="/"

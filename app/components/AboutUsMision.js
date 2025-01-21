@@ -30,7 +30,7 @@ const AboutUsHero = () => {
             calificado, contribuyendo a la generación de empleo.
           </p>
           <button className="bg-teal-500 text-white py-3 px-6 rounded-lg shadow-md hover:bg-teal-600 transition">
-            ¿Qué es Nos-Tic?
+            Productos y servicios
           </button>
         </div>
 

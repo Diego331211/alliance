@@ -12,12 +12,12 @@ const Hero = () => {
             Grupo Alliance Medical Supplies
           </h1>
           <p className="text-gray-700 mb-6">
-            <br></br> En Alliance Medical Supplies, estamos comprometidos con el
-            acompañamiento e innovación en el sector salud. Nuestro enfoque se
-            centra en ofrecer dispositivos médicos y medicamentos de alta
-            calidad que respalden la labor médica. Nos enorgullece colaborar
-            estrechamente con instituciones de salud para proporcionarles los
-            productos más avanzados y eficaces disponibles en el mercado.
+            <br></br> En Alliance, estamos comprometidos con el acompañamiento e
+            innovación en el sector salud. Nuestro enfoque se centra en ofrecer
+            dispositivos médicos y medicamentos de alta calidad que respalden la
+            labor médica. Nos enorgullece colaborar estrechamente con
+            instituciones de salud para proporcionarles los productos más
+            avanzados y eficaces disponibles en el mercado.
           </p>
           <p className="text-gray-700 mb-6">
             Contamos con una red de proveedores confiables, nos esforzamos por
@@ -71,25 +71,33 @@ const Hero = () => {
       {/* Botones Sociales */}
       <div className="absolute top-10 right-10 space-y-4 hidden lg:block">
         <a
-          href="#"
+          href="https://www.facebook.com"
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-blue-500 text-white p-3 rounded-full shadow-md hover:bg-blue-600 transition block"
         >
           <i className="fab fa-facebook-f"></i>
         </a>
         <a
-          href="#"
+          href="https://www.twitter.com"
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-blue-500 text-white p-3 rounded-full shadow-md hover:bg-blue-600 transition block"
         >
           <i className="fab fa-twitter"></i>
         </a>
         <a
-          href="#"
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-blue-500 text-white p-3 rounded-full shadow-md hover:bg-blue-600 transition block"
         >
           <i className="fab fa-instagram"></i>
         </a>
         <a
-          href="#"
+          href="https://www.youtube.com"
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-blue-500 text-white p-3 rounded-full shadow-md hover:bg-blue-600 transition block"
         >
           <i className="fab fa-youtube"></i>

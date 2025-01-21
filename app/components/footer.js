@@ -6,15 +6,10 @@ const Footer = () => {
         {/* Contacto */}
         <div>
           <h3 className="font-semibold text-lg text-blue-700">Contáctenos</h3>
-          <p>Domicilios Cali / Pereira</p>
-          <p>(602) 485 68 50</p>
-          <p>WhatsApp: +57 318 548 44 44</p>
-          <p>
-            Horarios de atención{" "}
-            <a href="#" className="text-blue-700 hover:underline">
-              aquí
-            </a>
-          </p>
+          <p>Domicilio Bogotá</p>
+          <p>(601) 111 11 11</p>
+          <p>WhatsApp: +57 222 222 22 22</p>
+          Horarios de atención <p>7:00 am - 5:00 pm de lunes a viernes</p>
           <p>Escríbenos a: contacto@alliancemedical.com</p>
         </div>
 
@@ -68,16 +63,12 @@ const Footer = () => {
           <ul>
             <li>
               <a href="#" className="hover:underline">
-                Tiendas Cali
+                Tienda Bogotá
               </a>
             </li>
+
             <li>
-              <a href="#" className="hover:underline">
-                Tienda Pereira
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:underline">
+              <a href="/about" className="hover:underline">
                 ¿Quiénes somos?
               </a>
             </li>
@@ -89,12 +80,28 @@ const Footer = () => {
           <h3 className="font-semibold text-lg text-blue-700">
             Suscríbete a nuestro boletín
           </h3>
-          <form className="mt-4">
+          <form
+            className="mt-4"
+            action="https://formsubmit.co/your-email@example.com" // Cambia "your-email@example.com" por tu correo real
+            method="POST"
+          >
+            {/* Agregar campos ocultos de seguridad */}
+            <input
+              type="hidden"
+              name="_next"
+              value="https://tu-sitio.com/thanks"
+            />{" "}
+            {/* Página de agradecimiento */}
+            <input type="hidden" name="_captcha" value="false" />
+            {/* Campo de email */}
             <input
               type="email"
+              name="email"
               placeholder="Su dirección de correo electrónico"
+              required
               className="w-full p-2 border border-gray-300 rounded-lg mb-2"
             />
+            {/* Botón de enviar */}
             <button
               type="submit"
               className="bg-blue-700 text-white px-4 py-2 rounded-lg w-full hover:bg-blue-800"
@@ -102,8 +109,10 @@ const Footer = () => {
               Suscribirse
             </button>
           </form>
+
+          {/* Mensaje de privacidad */}
           <p className="text-sm mt-2">
-            <input type="checkbox" className="mr-2" />
+            <input type="checkbox" className="mr-2" required />
             ¿Aceptas nuestras políticas de privacidad?
           </p>
         </div>
