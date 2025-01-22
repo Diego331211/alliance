@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const AboutUsHero = () => {
   return (
-    <section className="relative bg-blue-700 text-white">
+    <section className="relative bg-blue-800 text-white">
       {/* Fondo del Hero */}
       <div className="absolute inset-0 -z-10">
         <Image
@@ -29,9 +29,12 @@ const AboutUsHero = () => {
             comprometemos a ofrecer un servicio de alta calidad y con personal
             calificado, contribuyendo a la generación de empleo.
           </p>
-          <button className="bg-teal-500 text-white py-3 px-6 rounded-lg shadow-md hover:bg-teal-600 transition">
+          <a
+            href="/products" // Reemplaza con la ruta de tu página de productos
+            className="bg-teal-500 text-white py-3 px-6 rounded-lg shadow-md hover:bg-teal-600 transition"
+          >
             Productos y servicios
-          </button>
+          </a>
         </div>
 
         {/* Imagen Principal */}

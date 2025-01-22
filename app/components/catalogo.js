@@ -48,10 +48,12 @@ const Catalogo = () => {
     return 0; // Mantener el orden si ambos productos pertenecen o no a la categoría seleccionada
   });
   return (
-    <div className="flex w-full min-h-screen">
+    <div className="flex w-full min-h-screen dark:bg-blue-900">
       {/* Panel izquierdo - Categorías */}
-      <div className="w-1/4 bg-gray-100 p-4">
-        <h2 className="text-xl font-bold mb-4">Categorías</h2>
+      <div className="w-1/4 bg-blue-100 p-4 dark:text-blue-900">
+        <h2 className="text-xl font-bold mb-4 dark:text-blue-900">
+          Categorías
+        </h2>
         <ul className="space-y-4">
           {categories.map((category) => (
             <li key={category.id}>
@@ -78,7 +80,7 @@ const Catalogo = () => {
       {/* Panel derecho - Barra de búsqueda y productos */}
       <div className="w-3/4 p-6">
         {/* Barra de búsqueda */}
-        <div className="flex justify-end mb-6">
+        <div className="flex justify-end mb-6 dark:text-blue-900">
           <input
             type="text"
             placeholder="Buscar productos..."

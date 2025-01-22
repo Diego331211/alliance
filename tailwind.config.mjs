@@ -13,5 +13,6 @@ export default {
       },
     },
   },
+  darkMode: false, // Desactiva el soporte para modo oscuro
   plugins: [],
 };

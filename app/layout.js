@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Alliance medical suplies",
   description:
-    "Proveemos equipos médicos, insumos hospitalarios y soluciones innovadoras para el sector salud, con enfoque en calidad y excelencia en el servicio.",
+    "Equipos médicos y soluciones para el sector salud con calidad y excelencia",
 };
 
 export default function RootLayout({ children }) {

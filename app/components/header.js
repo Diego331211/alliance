@@ -8,7 +8,6 @@ const Header = () => {
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
-    console.log("Menu is now:", !isOpen);
   };
 
   return (

@@ -82,7 +82,7 @@ const Footer = () => {
           </h3>
           <form
             className="mt-4"
-            action="https://formsubmit.co/your-email@example.com" // Cambia "your-email@example.com" por tu correo real
+            action="https://formsubmit.co/est.juan.gama@unimilitar.edu.co" // Cambia "your-email@example.com" por tu correo real
             method="POST"
           >
             {/* Agregar campos ocultos de seguridad */}

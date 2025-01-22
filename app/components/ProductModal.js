@@ -2,7 +2,7 @@ const ProductModal = ({ product, onClose }) => {
   if (!product) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 dark:text-blue-900">
       <div className="bg-white rounded-lg shadow-lg w-3/4 md:w-1/2 p-6 relative">
         {/* Botón de cerrar */}
         <button

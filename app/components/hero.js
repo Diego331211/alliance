@@ -27,12 +27,19 @@ const Hero = () => {
             tratamientos seguros que contribuyan al éxito de cada procedimiento.
           </p>
           <div className="flex justify-center lg:justify-start space-x-4">
-            <button className="bg-blue-500 text-white py-3 px-6 rounded-lg shadow-md hover:bg-blue-600 transition">
+            <a
+              href="/products"
+              className="bg-blue-500 text-white py-3 px-6 rounded-lg shadow-md hover:bg-blue-600 transition"
+            >
               Productos
-            </button>
-            <button className="bg-gray-200 text-gray-800 py-3 px-6 rounded-lg shadow-md hover:bg-gray-300 transition">
+            </a>
+
+            <a
+              href="/about"
+              className="bg-gray-200 text-gray-800 py-3 px-6 rounded-lg shadow-md hover:bg-gray-300 transition"
+            >
               Nosotros
-            </button>
+            </a>
           </div>
         </div>
 
