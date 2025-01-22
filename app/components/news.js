@@ -16,9 +16,9 @@ const News = () => {
       />
 
       {/* Contenedor de contenido */}
-      <div className="relative z-10 flex flex-row items-center min-h-screen">
-        {/* Formulario en la mitad izquierda */}
-        <div className="w-1/2 h-full flex items-center justify-center">
+      <div className="relative z-10 flex flex-col md:flex-row items-center min-h-screen">
+        {/* Formulario */}
+        <div className="w-full md:w-1/2 h-auto md:h-full flex items-center justify-center p-6">
           <div className="bg-white p-8 rounded-lg shadow-lg max-w-md w-full">
             <div className="text-center mb-6">
               <div className="w-12 h-12 mx-auto mb-3">
@@ -31,7 +31,7 @@ const News = () => {
               </div>
               <h2 className="text-xl font-bold text-gray-700">Newsletter</h2>
               <p className="text-gray-500">
-                Stay up to date with our latest news and products.
+                Mantente al día con nuestras noticias y promociones.
               </p>
             </div>
             <form
@@ -42,7 +42,7 @@ const News = () => {
                 <input
                   type="email"
                   name="email"
-                  placeholder="Your email address"
+                  placeholder="tu_correo@ejemplo.com"
                   className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                   required
                 />
@@ -51,23 +51,22 @@ const News = () => {
                 type="submit"
                 className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition"
               >
-                Subscribe
+                Suscribirse
               </button>
               <p className="text-sm text-gray-400 mt-2 text-center">
-                Your email is safe with us, we don't spam.
+                Tu correo está a salvo, no hacemos spam.
               </p>
             </form>
           </div>
         </div>
 
-        {/* Imagen en la mitad derecha */}
-        <div className="w-1/2 h-full flex items-center justify-center">
-          <div className="relative w-[90%] h-[90%]">
+        {/* Imagen */}
+        <div className="w-full md:w-1/2 h-auto md:h-full flex items-center justify-center p-6">
+          <div className="relative w-full h-64 md:w-[90%] md:h-[90%]">
             <Image
               src="/Devices.svg" // Cambia esto por la ruta real de tu imagen SVG
               alt="Imagen destacada"
-              height={700}
-              width={900}
+              layout="fill"
               objectFit="contain"
             />
           </div>
