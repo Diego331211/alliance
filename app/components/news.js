@@ -66,7 +66,8 @@ const News = () => {
             <Image
               src="/Devices.svg" // Cambia esto por la ruta real de tu imagen SVG
               alt="Imagen destacada"
-              layout="fill"
+              height={700}
+              width={900}
               objectFit="contain"
             />
           </div>
