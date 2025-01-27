@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const VisionSection = () => {
   return (
-    <section className="bg-blue-100 py-20">
+    <section className="bg-gradient-to-br from-blue-400 to-white py-20">
       <div className="container mx-auto px-6 md:px-12 text-center md:text-left">
         <div className="md:flex md:items-center">
           {/* Imagen */}
@@ -22,9 +22,9 @@ const VisionSection = () => {
 
           {/* Texto */}
           <div className="md:w-2/3 md:pl-10">
-          <h2 className="text-3xl font-bold text-blue-900 mb-6">
-          Nuestra Visión
-        </h2>
+            <h2 className="text-3xl font-bold text-blue-900 mb-6">
+              Nuestra Visión
+            </h2>
             <p className="text-xl text-blue-800">
               Ser reconocidos a nivel Nacional como una empresa líder en la
               distribución de material médico especializado, siendo referentes

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link"; // Importa el componente Link
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false); // Estado para manejar el menú
@@ -15,13 +16,15 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <Image
-            src="/aliance.svg" // Reemplaza con tu ruta
-            alt="Alliance Medical Supplies"
-            layout="intrinsic"
-            width={150}
-            height={100}
-          />
+          <Link href="/" passHref>
+            <Image
+              src="/aliance.svg" // Reemplaza con tu ruta
+              alt="Alliance Medical Supplies"
+              layout="intrinsic"
+              width={150}
+              height={100}
+            />
+          </Link>
         </div>
 
         {/* Botón del Menú de Hamburguesa */}

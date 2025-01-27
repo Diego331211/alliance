@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const AboutUsHero = () => {
   return (
-    <section className="relative bg-blue-800 text-white">
+    <section className="relative bg-gradient-to-br from-blue-800 to-blue-100 text-white">
       {/* Fondo del Hero */}
       <div className="absolute inset-0 -z-10">
         <Image
