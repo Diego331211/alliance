@@ -1,7 +1,5 @@
 "use client";
 
-import ContactInfo from "./contactInfo";
-
 const Contact = () => {
   return (
     <div className="bg-white dark:bg-blue-100 rounded-lg shadow-lg max-w-6xl mx-auto p-6 mt-10 mb-10">
@@ -10,7 +8,7 @@ const Contact = () => {
         {/* Columna del formulario */}
         <div>
           <form
-            action="https://formsubmit.co/est.juan.gama@unimilitar.edu.co"
+            action="https://formsubmit.co/gerencia@alliancemedicalsup.com"
             method="POST"
             className="grid grid-cols-1 md:grid-cols-2 gap-6"
           >
@@ -126,9 +124,13 @@ const Contact = () => {
           </form>
         </div>
 
-        {/* Columna del mapa */}
-        <div>
-          <ContactInfo />
+        {/* Columna del logo de la empresa */}
+        <div className="flex justify-center items-center">
+          <img
+            src="/Logo.png"
+            alt="Logo de la empresa"
+            className="w-100 h-auto"
+          />
         </div>
       </div>
     </div>

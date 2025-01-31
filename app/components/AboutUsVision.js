@@ -25,7 +25,7 @@ const VisionSection = () => {
             <h2 className="text-3xl font-bold text-blue-900 mb-6">
               Nuestra Visión
             </h2>
-            <p className="text-xl text-blue-800">
+            <p className="text-xl text-blue-800 text-justify">
               Ser reconocidos a nivel Nacional como una empresa líder en la
               distribución de material médico especializado, siendo referentes
               en innovación, calidad y servicio. Buscamos expandir nuestro

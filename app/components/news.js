@@ -35,7 +35,7 @@ const News = () => {
               </p>
             </div>
             <form
-              action="https://formsubmit.co/est.juan.gama@unimilitar.edu.co" // Reemplaza con tu endpoint
+              action="https://formsubmit.co/gerencia@alliancemedicalsup.com" // Reemplaza con tu endpoint
               method="POST"
             >
               <div className="mb-4">

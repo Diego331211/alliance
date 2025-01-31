@@ -10,7 +10,7 @@ const Footer = () => {
           <p>(601) 111 11 11</p>
           <p>WhatsApp: +57 222 222 22 22</p>
           Horarios de atención <p>7:00 am - 5:00 pm de lunes a viernes</p>
-          <p>Escríbenos a: contacto@alliancemedical.com</p>
+          <p>Escríbenos a: gerencia@alliancemedicalsup.com</p>
         </div>
 
         {/* Guía de compra */}
@@ -82,7 +82,7 @@ const Footer = () => {
           </h3>
           <form
             className="mt-4"
-            action="https://formsubmit.co/est.juan.gama@unimilitar.edu.co" // Cambia "your-email@example.com" por tu correo real
+            action="https://formsubmit.co/gerencia@alliancemedicalsup.com" // Cambia "your-email@example.com" por tu correo real
             method="POST"
           >
             {/* Agregar campos ocultos de seguridad */}

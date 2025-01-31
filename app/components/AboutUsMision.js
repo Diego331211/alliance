@@ -19,8 +19,8 @@ const AboutUsHero = () => {
       <div className="container mx-auto px-6 py-20 text-center md:text-left md:flex md:items-center">
         {/* Texto Principal */}
         <div className="md:w-1/2">
-          <h1 className="text-4xl font-bold mb-4">Nuestra dirección</h1>
-          <p className="text-lg mb-6">
+          <h1 className="text-4xl font-bold mb-4"> Nuestra Misión</h1>
+          <p className="text-lg mb-6 text-justify">
             Ser líderes en la distribución de material médico especializado,
             proporcionando soluciones integrales y de calidad para la atención
             de pacientes. En las líneas de material de osteosíntesis
