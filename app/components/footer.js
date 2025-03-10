@@ -118,8 +118,16 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="text-center mt-8 text-sm text-gray-500">
+      <div className="text-center mt-8 text-sm text-gray-500 flex flex-col items-center">
         <p>2025 - Alliance Group - www.alliancemedical.com</p>
+        <a
+          href="/credits"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-xs text-gray-400 hover:text-gray-600 transition-colors mt-1"
+        >
+          Powered by Botopia Technology S.A.S &reg;
+        </a>
       </div>
     </footer>
   );

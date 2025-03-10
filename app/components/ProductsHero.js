@@ -10,31 +10,31 @@ import "swiper/css/autoplay";
 const products = [
   {
     name: "PRUEBA RAPIDA COVID19",
-    image: "/productos/covid-test.jpg",
+    image: "/aposito.svg",
     code: "Código: 33698",
     link: "/products#covid-test",
   },
   {
     name: "SOLUCIÓN PAPANICOLAU 1000ML",
-    image: "/productos/papanicolau.jpg",
+    image: "/Mano.svg",
     code: "Código: 17679",
     link: "/products#papanicolau",
   },
   {
     name: "TUBO TAPA LILA 4MLx100",
-    image: "/productos/tubo-lila.jpg",
+    image: "/MatrixMANDIBLE.svg",
     code: "Código: 17614",
     link: "/products#tubo-lila",
   },
   {
     name: "TRIGLICÉRIDOS 4x50ML Kit",
-    image: "/productos/trigliceridos.jpg",
+    image: "/MatrixNEURO.svg",
     code: "Código: 16758",
     link: "/products#trigliceridos",
   },
   {
     name: "PRUEBA DROGA ABUSO",
-    image: "/productos/droga-test.jpg",
+    image: "/oseos.svg",
     code: "Código: 41800",
     link: "/products#droga-test",
   },
