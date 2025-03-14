@@ -75,12 +75,6 @@ const Header = () => {
             Productos y servicios
           </a>
           <a
-            href="/blog"
-            className="text-gray-800 hover:text-blue-500 font-medium block md:inline-block"
-          >
-            Blog/noticias
-          </a>
-          <a
             href="/contact"
             className="text-gray-800 hover:text-blue-500 font-medium block md:inline-block"
           >
