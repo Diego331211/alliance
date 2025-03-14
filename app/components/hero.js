@@ -59,44 +59,6 @@ const Hero = () => {
       </div>
 
       {/* Estadísticas */}
-      <div className="mt-10 lg:mt-16 container mx-auto px-6 text-center lg:text-left">
-        <div className="grid grid-cols-3 gap-6 lg:w-1/2 lg:mx-0">
-          <div>
-            <h3 className="text-3xl font-bold text-blue-600">50k+</h3>
-            <p className="text-gray-700">
-              Clientes <br></br>satisfechos
-            </p>
-          </div>
-          <div>
-            <h3 className="text-3xl font-bold text-blue-600">350+</h3>
-            <p className="text-gray-700">Hospitales que confían en nosotros</p>
-          </div>
-          <div>
-            <h3 className="text-3xl font-bold text-blue-600">98%</h3>
-            <p className="text-gray-700">Entregas completadas con exito</p>
-          </div>
-        </div>
-      </div>
-
-      {/* Botones Sociales */}
-      <div className="absolute top-10 right-10 space-y-4 hidden lg:block flex flex-col items-center space-y-4">
-        <a
-          href="https://www.facebook.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-blue-500 text-white p-4 rounded-full shadow-md hover:bg-blue-600 transition flex items-center justify-center"
-        >
-          <i className="fab fa-facebook-f"></i>
-        </a>
-        <a
-          href="https://www.twitter.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-blue-500 text-white p-4 rounded-full shadow-md hover:bg-blue-600 transition flex items-center justify-center"
-        >
-          <i className="fab fa-twitter"></i>
-        </a>
-      </div>
     </section>
   );
 };

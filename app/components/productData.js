@@ -5,7 +5,7 @@ const ProductData = [
     category: "Dispositivos Médicos",
     name: "MatrixNEURO",
     image: "/MatrixNEURO.svg",
-    price: "$99.999",
+    price: "",
     description:
       "Sistema avanzado de fijación ósea para procedimientos médicos.",
   },
@@ -14,7 +14,7 @@ const ProductData = [
     category: "Dispositivos Médicos",
     name: "MatrixMIDFACE",
     image: "/MatrixMIDFACE.svg",
-    price: "$99.999",
+    price: "",
     description:
       "Sistema avanzado de fijación ósea para procedimientos médicos.",
   },
@@ -23,7 +23,7 @@ const ProductData = [
     category: "Dispositivos Médicos",
     name: "MatrixMANDIBLE",
     image: "MatrixMANDIBLE.svg",
-    price: "$99.999",
+    price: "",
     description:
       "Sistema avanzado de fijación ósea para procedimientos médicos.",
   },
@@ -32,7 +32,7 @@ const ProductData = [
     category: "Dispositivos Médicos",
     name: "LCP Compact Hand 1.5",
     image: "/Mano.svg",
-    price: "$99.999",
+    price: "",
     description:
       "Sistema avanzado de fijación ósea para procedimientos médicos.",
   },
@@ -41,7 +41,7 @@ const ProductData = [
     category: "Dispositivos Médicos",
     name: "LCP Compact Hand 2.0",
     image: "/Mano.svg",
-    price: "$99.999",
+    price: "",
     description:
       "Sistema avanzado de fijación ósea para procedimientos médicos.",
   },
@@ -50,7 +50,7 @@ const ProductData = [
     category: "Dispositivos Médicos",
     name: "LCP Compact Hand 2.4",
     image: "/Mano.svg",
-    price: "$99.999",
+    price: "",
     description:
       "Sistema avanzado de fijación ósea para procedimientos médicos.",
   },
@@ -60,7 +60,7 @@ const ProductData = [
     category: "Materiales Descartables",
     name: "Genadyne XLR8",
     image: "/xlr8.svg",
-    price: "$99.999",
+    price: "",
     description:
       "Sistema avanzado de fijación ósea para procedimientos médicos.",
   },
@@ -69,7 +69,7 @@ const ProductData = [
     category: "Materiales Descartables",
     name: "Kit apósito de polivinil alcohol",
     image: "/polivinyl.svg",
-    price: "$99.999",
+    price: "",
     description:
       "Sistema avanzado de fijación ósea para procedimientos médicos.",
   },
@@ -78,7 +78,7 @@ const ProductData = [
     category: "Materiales Descartables",
     name: "Sistema de apósitos de poliuretano",
     image: "/poliuretano.svg",
-    price: "$99.999",
+    price: "",
     description:
       "Sistema avanzado de fijación ósea para procedimientos médicos.",
   },
@@ -87,7 +87,7 @@ const ProductData = [
     category: "Materiales Descartables",
     name: "AQUACEL AG+ Extra:AQUACEL AG+ Foam",
     image: "/Aposito.svg",
-    price: "$49.999",
+    price: "",
     description: "Material descartable de alta calidad.",
   },
 
@@ -98,7 +98,7 @@ const ProductData = [
     category: "Equipos Médicos",
     name: "Fibras de matriz ósea",
     image: "/oseos.svg",
-    price: "$49.999",
+    price: "",
     description: "Material descartable de alta calidad.",
   },
   {
@@ -106,7 +106,7 @@ const ProductData = [
     category: "Equipos Médicos",
     name: "Chips de hueso esponjoso",
     image: "/oseos.svg",
-    price: "$49.999",
+    price: "",
     description: "Material descartable de alta calidad.",
   },
 
@@ -117,7 +117,7 @@ const ProductData = [
     category: "Otros Insumos",
     name: "Removedor de adhesivo en spray",
     image: "/spray.svg",
-    price: "$49.999",
+    price: "",
     description: "Material descartable de alta calidad.",
   },
 
